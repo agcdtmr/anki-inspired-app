@@ -1,4 +1,6 @@
-# flashcard-django-app
+# anki-inspired-app
+
+Created with Django, Python and SQLite3
 
 This is inspired by Anki app, a free and open-source flashcard program using spaced repetition, a technique from cognitive science for memorization. A tool I used to retain what I am learning.
 

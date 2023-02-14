@@ -62,7 +62,8 @@ Home page: http://127.0.0.1:8000
 14. Create an Update an Existing Card view
 15. Connect The Pages - button for Create New Card and The Boxes
 16. Backend logic of the cards
-17. ``pip install python-dotenv``
+17. Create .env file for Django secret key
+``pip install python-dotenv``
 
 
 ## Here are some ideas for additional features:

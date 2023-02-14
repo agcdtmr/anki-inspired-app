@@ -61,7 +61,7 @@ Home page: http://127.0.0.1:8000
 13. Create a New Card view
 14. Create an Update an Existing Card view
 15. Connect The Pages - button for Create New Card and The Boxes
-16. Check a Card
+16. Backend logic of the cards
 
 
 ## Here are some ideas for additional features:

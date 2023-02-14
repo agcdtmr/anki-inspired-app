@@ -48,8 +48,7 @@ Home page: http://127.0.0.1:8000
 - add the line below to INSTALLED_APPS in flashcards/settings.py
 ``"cards.apps.CardsConfig",``
 - Create a path in urls.py in your flashcards/ folder and include in the cards URL
-7. Add a template directory
-- Add base.html template
+7. Add a template directory - base.html
 8. Sprinkle in Some Style
 ``<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">``
 9. Add Card Model. Define how the tables of your SQLite database should look.

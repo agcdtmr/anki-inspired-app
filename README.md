@@ -1,6 +1,8 @@
-# flashcard-django-app
+# anki-inspired-app
 
-This is inspired by Anki app, a free and open-source flashcard program using spaced repetition, a technique from cognitive science for memorization. A tool I used to retain what I am learning.
+Created with Django, Python and SQLite3
+
+This is inspired by Anki app, a free and open-source flashcard program using spaced repetition, a technique from cognitive science for memorization. A tool I keep using to retain what I am learning.
 
 ## To Do / To Fix:
 - To connect the boxes cards in loop
@@ -46,8 +48,7 @@ Home page: http://127.0.0.1:8000
 - add the line below to INSTALLED_APPS in flashcards/settings.py
 ``"cards.apps.CardsConfig",``
 - Create a path in urls.py in your flashcards/ folder and include in the cards URL
-7. Add a template directory
-- Add base.html template
+7. Add a template directory - base.html
 8. Sprinkle in Some Style
 ``<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">``
 9. Add Card Model. Define how the tables of your SQLite database should look.
@@ -60,7 +61,7 @@ Home page: http://127.0.0.1:8000
 13. Create a New Card view
 14. Create an Update an Existing Card view
 15. Connect The Pages - button for Create New Card and The Boxes
-16. Check a Card
+16. Backend logic of the cards
 
 
 ## Here are some ideas for additional features:

@@ -38,24 +38,24 @@ Home page: http://127.0.0.1:8000
 ``source venv/bin/activate``
 2. Add Dependencies
 ``python -m pip install django==4.0.4``
-3. Initiate Your Django Project
+3. Initiate Django Project
 ``django-admin startproject flashcards .``
 ``python manage.py runserver``
-4. Set Up Your Flashcards App
-5. Create Your Django Flashcards App
+4. Set Up Flashcards App
+5. Create Django Flashcards App
 ``python manage.py startapp cards``
 6. Connect the cards app to the flashcards project
 - add the line below to INSTALLED_APPS in flashcards/settings.py
 ``"cards.apps.CardsConfig",``
-- Create a path in urls.py in your flashcards/ folder and include in the cards URL
+- Create a path in urls.py in flashcards/ folder and include in the cards URL
 7. Add a template directory - base.html
 8. Sprinkle in Some Style
 ``<link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">``
-9. Add Card Model. Define how the tables of your SQLite database should look.
+9. Add Card Model. Define how the tables of SQLite database should look.
 10. Create migrations and migrate the changes to apply the database
 ``python manage.py makemigrations``
 ``python manage.py migrate``
-11. Use the Django shell to put some cards into your database.
+11. Use the Django shell to put some cards into the database.
 ``python manage.py shell``
 12. Create a view for the Card
 13. Create a New Card view
@@ -70,5 +70,5 @@ Home page: http://127.0.0.1:8000
 
 - Archive: Add the option to archive cards that you don’t want to check anymore.
 - Success Messages: Show success messages when you create a new card or when a card moves to a new box.
-- Spaced Repetition: Enhance your Card model to keep track of the last time when a card was checked, or create reminders to your boxes to schedule your next learning session.
-- Flashcard Sets: Expand your app to deal with different sets of flashcards. For instance, you could have a set for your Spanish class, another for biology, and so on.
+- Spaced Repetition: Enhance the Card model to keep track of the last time when a card was checked, or create reminders to the boxes to schedule the next learning session.
+- Flashcard Sets: Expand the app to deal with different sets of flashcards. For instance, you could have a set for the German class, another for Spanish class, and so on.
